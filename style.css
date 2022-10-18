@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#game-board{
+    position: absolute;
+    margin: auto;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    height:600px;
+    width:600px;
+}
+
+img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#scoreText{
+    font-size: 20px;
+    margin-left: 645px;
+}
+
+.box{
+    position: absolute;
+    height:137px;
+    width:137px;
+    left: 11px;
+    top: 11px;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 137px;
+    font-size: 40px;
+    color:white;
+    font-weight: 750;
+    transition: margin 0.15s linear, background 0.05s linear, transform 0.05s linear;
+    transform-origin: center;
+}
